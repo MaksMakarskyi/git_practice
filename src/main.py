@@ -18,7 +18,3 @@ model = nn.Sequential(
     nn.Linear(128, 10),
     nn.Softmax()
 )
-
-model.eval()
-
-print(model(test_input))
